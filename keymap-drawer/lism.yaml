@@ -27,17 +27,17 @@ layers:
   - V
   - B
   - N
-  - {t: M, h: win-arrow}
+  - {t: M, h: scroll}
   - '&mkp MB1'
   - '&mkp MB2'
   - {t: '-', h: LEFT SHIFT}
   - ESC
   - DEL
   - LEFT WIN
-  - {t: TAB, h: '10'}
-  - {t: SPACE, h: '11'}
-  - {t: LANG2, h: win-shortcut}
-  - {t: LANG1, h: '12'}
+  - {t: TAB, h: symbol}
+  - {t: SPACE, h: win-arrow}
+  - {t: LANG2, h: number}
+  - {t: LANG1, h: win-shortcut}
   - BS
   - {t: ▽, type: trans}
   - Ctl++
@@ -215,6 +215,135 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  scroll:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LCTRL
+  - {t: ▽, type: trans}
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  number:
+  - {t: F12, h: LEFT ALT}
+  - F7
+  - F8
+  - F9
+  - '*'
+  - ':'
+  - '7'
+  - '8'
+  - '9'
+  - BS
+  - {t: F11, h: LCTRL}
+  - F4
+  - F5
+  - F6
+  - +
+  - /
+  - '4'
+  - '5'
+  - '6'
+  - ENTER
+  - {t: F10, h: LEFT SHIFT}
+  - F1
+  - F2
+  - F3
+  - '='
+  - .
+  - '1'
+  - '2'
+  - '3'
+  - '-'
+  - ESC
+  - DEL
+  - LEFT WIN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - LANG2
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
+  symbol:
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - LCTRL
+  - '&'
+  - '*'
+  - (
+  - )
+  - LCTRL
+  - {t: ▽, type: trans}
+  - '{'
+  - '}'
+  - +
+  - QUESTION
+  - ':'
+  - '"'
+  - UNDERSCORE
+  - '|'
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - '['
+  - ']'
+  - '='
+  - /
+  - ;
+  - ''''
+  - '-'
+  - \
+  - ESCAPE
+  - DEL
+  - LEFT WIN
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Gui+SPACE
+  - BS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F10
   win-arrow:
   - Gui+Sft+S
   - Ctl+W
@@ -242,7 +371,7 @@ layers:
   - Ctl+V
   - Ctl+Sft+V
   - Sft+Ctl+←
-  - {t: Sft+Ctl+→, type: held}
+  - Sft+Ctl+→
   - ','
   - PERIOD
   - {t: Gui+TAB, h: RIGHT SHIFT}
@@ -250,7 +379,7 @@ layers:
   - DEL
   - LEFT WIN
   - TAB
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - DEL
   - BS
@@ -294,8 +423,8 @@ layers:
   - {t: ▽, type: trans}
   - Gui+TAB
   - Gui+SPACE
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -335,7 +464,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -379,7 +508,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -424,7 +553,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
