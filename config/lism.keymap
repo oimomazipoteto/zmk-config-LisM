@@ -99,7 +99,6 @@
         };
 
         layer_5 {
-            status = "reserved";
             display-name = "scroll";
             bindings = <
 &trans     &trans  &trans     &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -110,7 +109,6 @@
         };
 
         layer_6 {
-            status = "reserved";
             display-name = "number";
             bindings = <
 &mt LEFT_ALT F12    &kp F7      &kp F8        &kp F9  &kp ASTERISK                       &kp COLON  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
@@ -121,7 +119,6 @@
         };
 
         layer_7 {
-            status = "reserved";
             display-name = "symbol";
             bindings = <
 &kp EXCLAMATION  &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT                           &kp LCTRL      &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
@@ -132,7 +129,7 @@
         };
 
         layer_8 {
-            label = "win-arrow";
+            display-name = "win-arrow";
             bindings = <
 &kp LG(LS(S))         &kp LC(W)           &kp LC(LS(TAB))        &kp LC(TAB)      &kp LC(LS(T))                        &kp RS(HOME)      &kp HOME           &kp UP_ARROW     &kp END          &kp RS(END)
 &mt LCTRL LC(A)       &mt LEFT_ALT LC(S)  &mt LEFT_WIN LA(LEFT)  &mt LCTRL LC(F)  &kp LC(L)                            &kp RC(LEFT)      &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp RC(RIGHT)
@@ -142,7 +139,7 @@
         };
 
         layer_9 {
-            label = "win-shortcut";
+            display-name = "win-shortcut";
             bindings = <
 &trans          &trans         &kp LG(E)  &kp LG(LS(T))  &kp LG(T)                        &trans         &kp LC(LS(TAB))  &kp RG(UP_ARROW)    &kp LC(TAB)    &kp RG(L)
 &trans          &kp LG(LS(S))  &kp LG(D)  &trans         &kp LG(G)                        &kp LA(LEFT)   &kp RG(LEFT)     &kp RG(DOWN_ARROW)  &kp RG(RIGHT)  &kp LA(RIGHT)
