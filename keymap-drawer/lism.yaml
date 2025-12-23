@@ -11,38 +11,38 @@ layers:
   - I
   - O
   - P
-  - '&mt_exit_AML_on_tap LCTRL A'
+  - {t: A, h: LCTRL}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT WIN}
-  - '&mt_exit_AML_on_tap LCTRL F'
+  - {t: F, h: LCTRL}
   - G
   - H
-  - {t: J, h: ipad-default}
+  - {t: J, h: RCTRL}
   - {t: K, h: RIGHT GUI}
   - {t: L, h: RIGHT ALT}
   - {t: ENTER, h: RCTRL}
-  - '&mt_exit_AML_on_tap LEFT_SHIFT Z'
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - N
-  - {t: M, h: ipad-default}
-  - ','
-  - PERIOD
+  - {t: M, h: win-arrow}
+  - '&mkp MB1'
+  - '&mkp MB2'
   - {t: '-', h: LEFT SHIFT}
   - ESC
   - DEL
   - LEFT WIN
-  - {t: TAB, h: win-arrow}
-  - {t: SPACE, h: mouse}
-  - {t: LANG2, h: bluetooth}
-  - {t: LANG1, h: win-shortcut}
+  - {t: TAB, h: '10'}
+  - {t: SPACE, h: '11'}
+  - {t: LANG2, h: win-shortcut}
+  - {t: LANG1, h: '12'}
   - BS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: F10, h: '10'}
+  - Ctl++
+  - Ctl+-
+  - {t: F10, h: bluetooth}
   mac-default:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,6 +135,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT CLR
+  - KP NUMLOCK
+  - CAPSLOCK
+  - SCROLLLOCK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -145,10 +150,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -166,12 +172,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -207,7 +207,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -242,21 +242,21 @@ layers:
   - Ctl+V
   - Ctl+Sft+V
   - Sft+Ctl+←
-  - Sft+Ctl+→
-  - LESS THAN
-  - GREATER THAN
+  - {t: Sft+Ctl+→, type: held}
+  - ','
+  - PERIOD
   - {t: Gui+TAB, h: RIGHT SHIFT}
   - ESC
   - DEL
   - LEFT WIN
-  - {t: TAB, type: held}
+  - TAB
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - DEL
   - BS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - VOLUME UP
+  - VOL DN
   - F10
   win-shortcut:
   - {t: ▽, type: trans}
@@ -268,7 +268,7 @@ layers:
   - Ctl+Sft+TAB
   - Gui+UP ARROW
   - Ctl+TAB
-  - {t: ▽, type: trans}
+  - Gui+L
   - {t: ▽, type: trans}
   - Gui+Sft+S
   - Gui+D
@@ -284,8 +284,8 @@ layers:
   - {t: ▽, type: trans}
   - Gui+V
   - {t: ▽, type: trans}
-  - '&poteto'
-  - {t: ▽, type: trans}
+  - AltGr+RCTRL
+  - HOME
   - AltGr+UP ARROW
   - {t: ▽, type: trans}
   - RSHFT
@@ -294,8 +294,8 @@ layers:
   - {t: ▽, type: trans}
   - Gui+TAB
   - Gui+SPACE
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -335,15 +335,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   '11':
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -379,7 +379,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -424,7 +424,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
