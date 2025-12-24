@@ -398,7 +398,7 @@ layers:
   - Gui+UP ARROW
   - Ctl+TAB
   - Gui+L
-  - {t: ▽, type: trans}
+  - LCTRL
   - Gui+Sft+S
   - Gui+D
   - {t: ▽, type: trans}
