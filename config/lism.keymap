@@ -27,6 +27,7 @@
                 <&macro_release>,
                 <&kp CAPSLOCK>;
         };
+
         poteto: poteto {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -147,7 +148,7 @@
         layer_9 {
             display-name = "win-shortcut";
             bindings = <
-&trans          &trans         &kp LG(E)  &kp LG(LS(T))  &kp LG(T)                        &trans         &kp LC(LS(TAB))  &kp RG(UP_ARROW)    &kp LC(TAB)    &kp RG(L)
+&trans          &trans         &kp LG(E)  &kp LG(LS(T))  &kp LG(T)                        &poteto        &kp LC(LS(TAB))  &kp RG(UP_ARROW)    &kp LC(TAB)    &kp RG(L)
 &trans          &kp LG(LS(S))  &kp LG(D)  &trans         &kp LG(G)                        &kp LA(LEFT)   &kp RG(LEFT)     &kp RG(DOWN_ARROW)  &kp RG(RIGHT)  &kp LA(RIGHT)
 &kp LEFT_SHIFT  &trans         &trans     &kp LG(V)      &trans                           &kp RA(RCTRL)  &kp HOME         &kp RA(UP_ARROW)    &trans         &kp RSHFT
 &trans          &trans         &trans     &kp LG(TAB)    &kp LG(SPACE)  &trans    &trans  &trans         &trans           &trans              &trans         &trans
