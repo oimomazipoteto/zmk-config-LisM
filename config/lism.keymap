@@ -27,6 +27,12 @@
                 <&macro_release>,
                 <&kp CAPSLOCK>;
         };
+        poteto: poteto {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp I &kp M &kp O &kp M &kp A &kp Z &kp I &kp P &kp O &kp T &kp E &kp T &kp O &kp N3 &kp AT &kp N8>;
+            label = "POTETO";
+        };
     };
 
     behaviors {
