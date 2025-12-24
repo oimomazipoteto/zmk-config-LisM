@@ -393,7 +393,7 @@ layers:
   - Gui+E
   - Gui+Sft+T
   - Gui+T
-  - {t: ▽, type: trans}
+  - '&poteto'
   - Ctl+Sft+TAB
   - Gui+UP ARROW
   - Ctl+TAB
