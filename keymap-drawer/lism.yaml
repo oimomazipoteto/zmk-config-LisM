@@ -86,7 +86,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  ipad-default:
+  android-default:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -345,7 +345,7 @@ layers:
   - {t: ▽, type: trans}
   - F10
   win-arrow:
-  - Gui+Sft+S
+  - Ctl+T
   - Ctl+W
   - Ctl+Sft+TAB
   - Ctl+TAB
