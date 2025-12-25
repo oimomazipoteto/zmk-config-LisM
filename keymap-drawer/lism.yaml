@@ -312,7 +312,7 @@ layers:
   - '*'
   - (
   - )
-  - LCTRL
+  - {t: Sft+`, h: LCTRL}
   - {t: ▽, type: trans}
   - '{'
   - '}'
@@ -322,7 +322,7 @@ layers:
   - '"'
   - UNDERSCORE
   - '|'
-  - LEFT SHIFT
+  - {t: '`', h: LEFT SHIFT}
   - {t: ▽, type: trans}
   - '['
   - ']'
