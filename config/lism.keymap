@@ -55,7 +55,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        win-default {
             display-name = "win-default";
             bindings = <
 &kp Q             &kp W           &kp E           &kp R        &kp T                                    &kp Y          &kp U        &kp I            &kp O            &kp P
@@ -65,7 +65,7 @@
             >;
         };
 
-        layer_1 {
+        mac-default {
             display-name = "mac-default";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -75,8 +75,8 @@
             >;
         };
 
-        layer_2 {
-            display-name = "ipad-default";
+        android-default {
+            display-name = "android-default";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans
@@ -85,7 +85,7 @@
             >;
         };
 
-        layer_3 {
+        bluetooth {
             display-name = "bluetooth";
             bindings = <
 &trans        &trans        &trans        &trans        &trans                          &bt BT_CLR_ALL  &bt BT_CLR  &kp KP_NUMLOCK  &kp CAPSLOCK  &kp SCROLLLOCK
@@ -115,7 +115,7 @@
             >;
         };
 
-        layer_6 {
+        number {
             display-name = "number";
             bindings = <
 &mt LEFT_ALT F12    &kp F7      &kp F8        &kp F9  &kp ASTERISK                       &kp COLON  &kp N7        &kp N8        &kp N9        &kp BACKSPACE
@@ -125,7 +125,7 @@
             >;
         };
 
-        layer_7 {
+        symbol {
             display-name = "symbol";
             bindings = <
 &kp EXCLAMATION       &kp AT_SIGN  &kp HASH          &kp DOLLAR         &kp PERCENT                           &kp LCTRL      &kp AMPERSAND  &kp ASTERISK       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
@@ -135,17 +135,17 @@
             >;
         };
 
-        layer_8 {
+        win-arrow {
             display-name = "win-arrow";
             bindings = <
-&kp LG(LS(S))         &kp LC(W)           &kp LC(LS(TAB))        &kp LC(TAB)      &kp LC(LS(T))                        &kp RS(HOME)      &kp HOME           &kp UP_ARROW     &kp END          &kp RS(END)
+&kp LC(T)             &kp LC(W)           &kp LC(LS(TAB))        &kp LC(TAB)      &kp LC(LS(T))                        &kp RS(HOME)      &kp HOME           &kp UP_ARROW     &kp END          &kp RS(END)
 &mt LCTRL LC(A)       &mt LEFT_ALT LC(S)  &mt LEFT_WIN LA(LEFT)  &mt LCTRL LC(F)  &kp LC(L)                            &kp RC(LEFT)      &kp LEFT_ARROW     &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp RC(RIGHT)
 &mt LEFT_SHIFT LC(Z)  &kp LC(X)           &kp LC(C)              &kp LC(V)        &kp LC(LS(V))                        &kp RS(RC(LEFT))  &kp RS(RC(RIGHT))  &kp COMMA        &kp PERIOD       &mt RIGHT_SHIFT RG(TAB)
 &kp ESC               &kp DEL             &kp LEFT_WIN           &kp TAB          &trans         &trans    &kp DELETE  &kp BACKSPACE     &trans             &kp C_VOLUME_UP  &kp C_VOL_DN     &kp F10
             >;
         };
 
-        layer_9 {
+        win-shortcut {
             display-name = "win-shortcut";
             bindings = <
 &trans          &trans         &kp LG(E)  &kp LG(LS(T))  &kp LG(T)                        &poteto        &kp LC(LS(TAB))  &kp RG(UP_ARROW)    &kp LC(TAB)    &kp RG(L)
